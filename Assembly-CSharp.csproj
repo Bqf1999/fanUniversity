@@ -56,7 +56,9 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Item/ItemBeanBase.cs" />
     <Compile Include="Assets/DOTween/Modules/DOTweenModuleAudio.cs" />
+    <Compile Include="Assets/Scripts/Item/ItemPanelBase.cs" />
     <Compile Include="Assets/DOTween/Modules/DOTweenModuleUtils.cs" />
     <Compile Include="Assets/DOTween/Modules/DOTweenModulePhysics.cs" />
     <Compile Include="Assets/DOTween/Modules/DOTweenModuleUI.cs" />
@@ -69,8 +71,10 @@
     <Compile Include="Assets/Scripts/Response.cs" />
     <Compile Include="Assets/Scripts/DataItem.cs" />
     <Compile Include="Assets/Scripts/FoldPanel.cs" />
-    <Compile Include="Assets/Scripts/Item/ItemBeanBase.cs" />
-    <Compile Include="Assets/Scripts/Item/ItemPanelBase.cs" />
+    <Compile Include="Assets/Scripts/字节顺序/run.cs" />
+    <Compile Include="Assets/Scripts/字节顺序/Cyuyan/fei.cs" />
+    <Compile Include="Assets/Scripts/字节顺序/Cyuyan/huo.cs" />
+    <Compile Include="Assets/Scripts/字节顺序/Cyuyan/yu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/DOTween/DOTween.dll" />
