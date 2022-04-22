@@ -58,17 +58,17 @@ public class run : MonoBehaviour
         {
 
             var newtext = Instantiate(txt,input.transform);
-            newtext.transform.position = new Vector3(input.transform.position.x +180+ 100 * (++xx), input.transform.position.y - 90,0);
+            newtext.transform.position = new Vector3(input.transform.position.x +180+ 100 * (++xx), input.transform.position.y - 50,0);
             newtext.text = "0x10" + i;
 
 
             var big = Instantiate(txt,input.transform);
-            big.transform.position = new Vector3(newtext.transform.position.x+15, input.transform.position.y - 120, 0);
+            big.transform.position = new Vector3(newtext.transform.position.x+15, input.transform.position.y - 80, 0);
             big.text = array[i];
             Debug.Log(array[i]);
 
             var little= Instantiate(txt,input.transform);
-            little.transform.position = new Vector3(newtext.transform.position.x+15, input.transform.position.y - 150, 0);
+            little.transform.position = new Vector3(newtext.transform.position.x+15, input.transform.position.y - 110, 0);
             little.text = array[le -1-i];
             
             

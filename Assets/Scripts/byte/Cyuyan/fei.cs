@@ -21,7 +21,7 @@ public class fei : MonoBehaviour
         string s = sixthTotwo(feii.text);
         t11.text = s;
         t12.text = CalFei(s);
-        t13.text = Convert.ToInt32(t12.text, 2).ToString("X");
+        t13.text = Convert.ToInt32(t12.text, 2).ToString("X");//二进制转16进制
         
     }
     
@@ -51,8 +51,6 @@ public class fei : MonoBehaviour
                 res = "0" + res;
             }
         }
-       
-
         return res;
     }
 }
